@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<link type="text/css" rel="stylesheet" href="style.css">
+		<script src="https://kit.fontawesome.com/6d1b11ccb1.js" crossorigin="anonymous"></script>
+		<script src="https://unpkg.com/vue/dist/vue.js"></script>
+	</head>
+	<body>
+		<div id="title">
+			<a :href="href">dまめたろうweb</a>
+		</div>
+		<div id="content">
+			<div id="yokoso">
+				<p>あなたの探すもの、きっとみつかる、知らんけど。</p>
+			</div>
+			<main>
+				<div id="side">
+					<p>Side</p>
+				</div>
+				<div id="main">
+					<p>Main</p>
+					<div id="anchors">
+						<div id="dev">
+							<a href="list.dev.href">
+								<img src="list.dev.icon">
+								<p id="dev-description">{{ list.dev.name }}</p>
+							</a>
+							<a href="list.diary.href">
+								<img src="list.diary.icon">
+								<p id="diary-description">{{ list.diary.name }}</p>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div id="test">
+					<p>{{ msg }}</p>
+				</div>
+			</main>
+		</div>
+		<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>

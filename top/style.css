@@ -1,0 +1,40 @@
+body {
+	margin: 0px;
+	background-color: #C5FFFB;
+}
+
+#title {
+	background-color: #0A9204;
+	color: white;
+	font-size: 25px;
+	padding: 20px;
+}
+
+#title a {
+	color: white;
+	text-decoration: none;
+}
+
+#content {
+	margin-left: 50px;
+	margin-right: 50px;
+	color: white;
+}
+
+#yokoso {
+	background-color: #4BE444;
+	color: grey;
+	margin-bottom: 2px;
+}
+
+main {
+	display: flex;
+}
+
+#side {
+	background-color: pink;
+}
+
+#main {
+	background-color: lightblue;
+}
